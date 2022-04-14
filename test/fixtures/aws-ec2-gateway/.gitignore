@@ -1,0 +1,4 @@
+/.terraform/
+/backend.hcl
+/locals.sensitive.tf
+/sensitive.auto.tfvars
