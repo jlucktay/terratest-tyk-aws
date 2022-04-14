@@ -27,7 +27,6 @@
 # Builds and binaries
 /bin/
 /dist/
-template-go
 
 # Makefile things
 /out/

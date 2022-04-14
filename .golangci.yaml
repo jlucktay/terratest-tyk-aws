@@ -23,7 +23,7 @@ linters-settings:
 
   gci:
     sections:
-      - prefix(go.jlucktay.dev/template-go)
+      - prefix(go.jlucktay.dev/terratest-tyk-aws)
 
   goconst:
     min-len: 3

@@ -1,5 +1,3 @@
-module go.jlucktay.dev/template-go
+module go.jlucktay.dev/terratest-tyk-aws
 
 go 1.16
-
-require go.jlucktay.dev/version v0.2.0
