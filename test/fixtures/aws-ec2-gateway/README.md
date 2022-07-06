@@ -27,12 +27,13 @@ Note that, at the time of writing, Terraform Cloud
 
 #### `locals.sensitive.tf`
 
-The `locals.sensitive.tf` file should contain the values for two `local` variables, like so:
+The `locals.sensitive.tf` file should contain values for the following `local` variables:
 
 ```hcl
 locals {
-  name_prefix = "<NAME PREFIX STRING>"
-  owner       = "<OWNER OF RESOURCES>"
+  aws_account_id = "<12 DIGIT ACCOUNT ID>"
+  name_prefix    = "<NAME PREFIX STRING>"
+  owner          = "<OWNER OF RESOURCES>"
 }
 ```
 
